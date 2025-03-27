@@ -4,7 +4,24 @@
 <html lang="en">
 <h1>Home Assistant - ESP32</h1>
   
-<p>Dit project maakt gebruik van een ESP32 om een home assistant systeem te beheren met MQTT, Blynk en verschillende sensoren.</p>
+<p>Dit project maakt gebruik van een ESP32 om een home assistant systeem te beheren met MQTT, Blynk en verschillende sensoren. Het project is een simulatie van een ecologisch systeem voor een smart home assistant. Zo wil je bijvoorbeeld niet dat je verwarming aan staat als je de voordeur laat openstaan, of je wil de temperatuur van je verwarming aanpassen in een bepaalde kamer van het huis misschien zelfs het licht aan of uit laten gaan in een kamer als je dit zou vergeten zijn.</p>
+
+<p>Om dit te simuleren zal een RGB led de status voorstellen van de verwarming en koeling van het huis. Zo zal de verwarming of koeling uitschakelen nadat de deur 15 seconden openstaat. Ook kan je van op afstand via de Blynk app de lichten, minimum temperatuur en maximum temperatuur veranderen, maar ook de data die uitgelezen wordt met de sensors bekijken in een grafiek en de status checken van de deur en het licht.</p>
+
+<h1>Gebruikte hardware</h1>
+<ul>
+    <li><strong>ESP32</strong> – Microcontroller voor sensoren, actuatoren en communicatie via MQTT en Blynk.</li>
+    <li><strong>Raspberry Pi 5</strong> – Centrale hub voor dataopslag, verwerking en MQTT-server.</li>
+    <li><strong>DHT11</strong> – Temperatuur- en vochtigheidssensor.</li>
+    <li><strong>HC-SR04</strong> – Ultrasone sensor voor deurstatusdetectie.</li>
+    <li><strong>BH1750</strong> – Lichtintensiteitssensor.</li>
+    <li><strong>SSD1306 OLED Display (I2C, 128x64)</strong> – Voor het weergeven van meetwaarden op de ESP32.</li>
+    <li><strong>LCD Display (op Raspberry Pi)</strong> – Voor het tonen van temperatuur en ingestelde min/max waarden.</li>
+    <li><strong>RGB LED</strong> – Geeft de status van de verwarming of koeling weer.</li>
+    <li><strong>Witte LED</strong> – Simuleert een lichtbron.</li>
+    <li><strong>220Ω weerstand</strong> – Mogelijk nodig voor het schakelen van LED's.</li>
+    <li><strong>Breadboard & Jumper Wires</strong> – Voor het maken van de elektrische verbindingen.</li>
+</ul>
   
 <h2>1. WiFi, MQTT en Blynk Instellingen</h2>
 <p>We beginnen met het instellen van de WiFi- en MQTT-verbindingen en de Blynk-authenticatie.</p>
@@ -413,24 +430,8 @@ De temperatuur, vochtigheid, deurstatus, lichtstatus en helderheid worden geform
 <h2>Conclusie</h2>
 <p>Dit project laat zien hoe je een home assistant bouwt met een ESP32, MQTT en Blynk. Het stuurt gegevens naar een dashboard en past de hardware aan op basis van de gemeten waarden.</p>
 
-<h1>Hardware used</h1>
-<ul>
-    <li><strong>ESP32</strong> – Microcontroller voor sensoren, actuatoren en communicatie via MQTT en Blynk.</li>
-    <li><strong>Raspberry Pi 5</strong> – Centrale hub voor dataopslag, verwerking en MQTT-server.</li>
-    <li><strong>DHT11</strong> – Temperatuur- en vochtigheidssensor.</li>
-    <li><strong>HC-SR04</strong> – Ultrasone sensor voor deurstatusdetectie.</li>
-    <li><strong>BH1750</strong> – Lichtintensiteitssensor.</li>
-    <li><strong>SSD1306 OLED Display (I2C, 128x64)</strong> – Voor het weergeven van meetwaarden op de ESP32.</li>
-    <li><strong>LCD Display (op Raspberry Pi)</strong> – Voor het tonen van temperatuur en ingestelde min/max waarden.</li>
-    <li><strong>RGB LED</strong> – Geeft de status van de verwarming of koeling weer.</li>
-    <li><strong>Witte LED</strong> – Simuleert een lichtbron.</li>
-    <li><strong>220Ω weerstand</strong> – Mogelijk nodig voor het schakelen van LED's.</li>
-    <li><strong>Breadboard & Jumper Wires</strong> – Voor het maken van de elektrische verbindingen.</li>
-</ul>
-
 <h1>Aansluitschema</h1>
 aansluitschema_esp32:(https://github.com/user-attachments/assets/5a1e5382-ecb3-42d3-94bf-33b6576bf85d)
-
 
 <h1>Blynk app layout</h1>
 Blynk_1:(https://github.com/user-attachments/assets/e9b56a7a-49d1-4b68-a4b3-62b03ec97e25)
