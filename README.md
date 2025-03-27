@@ -429,10 +429,11 @@ De temperatuur, vochtigheid, deurstatus, lichtstatus en helderheid worden geform
 </ul>
 
 <h1>Aansluitschema</h1>
-![Alt text](images/aansluitschema_esp32.png)
+aansluitschema_esp32:(https://github.com/user-attachments/assets/5a1e5382-ecb3-42d3-94bf-33b6576bf85d)
+
 
 <h1>Blynk app layout</h1>
-Picture 1:(https://github.com/user-attachments/assets/23df27f0-3c89-4421-80f9-65c8441ac2d1)
+Picture 1:(https://github.com/user-attachments/assets/e9b56a7a-49d1-4b68-a4b3-62b03ec97e25)
 <br>
 Picture 2:(https://github.com/user-attachments/assets/b13434bf-4c85-43ac-bd5a-9f27948c670a)
 
