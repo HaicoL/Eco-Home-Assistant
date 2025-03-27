@@ -433,9 +433,9 @@ aansluitschema_esp32:(https://github.com/user-attachments/assets/5a1e5382-ecb3-4
 
 
 <h1>Blynk app layout</h1>
-Picture 1:(https://github.com/user-attachments/assets/e9b56a7a-49d1-4b68-a4b3-62b03ec97e25)
+Blynk_1:(https://github.com/user-attachments/assets/e9b56a7a-49d1-4b68-a4b3-62b03ec97e25)
 <br>
-Picture 2:(https://github.com/user-attachments/assets/b13434bf-4c85-43ac-bd5a-9f27948c670a)
+Blynk_2:(https://github.com/user-attachments/assets/b13434bf-4c85-43ac-bd5a-9f27948c670a)
 
 <h1>Grafana layout</h1>
 Dashboard:(https://github.com/user-attachments/assets/33b8ab81-291e-43e9-9d23-5bddd39ba03c)
