@@ -442,6 +442,7 @@ Dashboard:(https://github.com/user-attachments/assets/33b8ab81-291e-43e9-9d23-5b
 
 <h1>Foto's van de opstelling</h1>
 bovenaf:(https://github.com/user-attachments/assets/d5c333a0-92d0-4cb2-b34b-b4e527f14479)
+<br>
 vooraan:(https://github.com/user-attachments/assets/06003256-62e2-4f6e-b757-da81c6079f58)
 
 
