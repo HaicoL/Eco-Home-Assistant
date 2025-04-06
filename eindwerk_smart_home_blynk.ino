@@ -14,7 +14,7 @@ const char* ssid = "Proximus-Home-089155";
 const char* password = "xrsmp5uk6uj2kss6";
 const char* mqtt_server = "192.168.129.71";
 const char* mqtt_user = "haico";
-const char* mqtt_password = "Goofy2004";
+const char* mqtt_password = "";
 const char* client_id = "esp32_home_assistant";
 char auth[] = "8Wle5tD5B__VxYCnc7kVadJXSRUZWZEm";
 
